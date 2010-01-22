@@ -1,0 +1,183 @@
+/*
+
+title: master css
+author: bylinebreak.com
+last revision: 21.01.10
+
+*/
+
+/* section: imports
+---------------------------------------------- */
+@import url(library.css);
+/* ------------------------------------------- */
+
+/* section: base
+---------------------------------------------- */
+body {
+	background: #fff;
+	color: #000;
+	font: 12px/1 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+	/* section: links
+	---------------------------------------------- */
+	a {
+	    color: #000;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	
+	a:hover {
+	    color: #bbb;
+	}
+	/* ------------------------------------------- */
+/* ------------------------------------------- */
+
+/* section: structure
+---------------------------------------------- */
+	/* section: wrapper
+	---------------------------------------------- */
+	#wrapper {
+		margin: 0 auto;
+		padding: 50px 0;
+		width: 940px;
+	}
+	/* ------------------------------------------- */
+	
+	/* section: header
+	---------------------------------------------- */
+	header {
+		height: 23px;
+		margin: 0 0 9px 0;
+	}
+
+	header h1 {
+		background: url(images/logo.png);
+		float: left;
+		height: 23px;
+		text-indent: -99999px;
+		width: 184px;
+	}
+	
+	header nav {
+		float: right;
+	}
+	
+	header nav ul li {
+		line-height: 23px;
+	}
+	/* ------------------------------------------- */
+	
+	/* section: article
+	---------------------------------------------- */
+	article {
+		border-top: 1px solid #e5e5e5;
+		margin: 0 0 30px 0;
+		padding: 30px 0 0 0;
+	}
+	
+	article aside {
+		float: left;
+		margin: 0 20px 0 0;
+		width: 220px;
+	}
+	
+	article aside h3 {
+		font-size: 14px;
+		font-weight: bold;
+		margin: 0 0 10px 0;
+	}
+	
+	article aside p {
+		color: #8ec234;
+		margin: 0 0 20px 0;
+	}
+	
+	article aside .navigator ul li {
+		float: left;
+	}
+	
+	article aside .navigator ul li {
+		float: left;
+	}
+	
+	article aside .navigator ul li.prev {
+		margin: 0 5px 0 0;
+	}
+	
+	article aside .navigator ul li a {
+		background-image: url(images/navigator.png);
+		display: block;
+		height: 24px;
+		text-indent: -99999px;
+		width: 24px;
+	}
+	
+	article aside .navigator ul li.prev a {
+		background-position: 0 -24px;
+	}
+	
+	article aside .navigator ul li.prev a:hover {
+		background-position: 0 -48px;
+	}
+	
+	article aside .navigator ul li.prev a:active {
+		background-position: 0 -72px;
+	}
+	
+	article aside .navigator ul li.next a {
+		background-position: -24px -24px;
+	}
+	
+	article aside .navigator ul li.next a:hover {
+		background-position: -24px -48px;
+	}
+	
+	article aside .navigator ul li.next a:active {
+		background-position: -24px -72px;
+	}
+	
+	article .preview {
+		float: left;
+		width: 700px;
+	}
+	
+	article .preview .scrollable {
+		height: 550px;
+		overflow: hidden;
+		position: relative;
+		width: 700px;
+	}
+	
+	article .preview .scrollable .items {
+		position: absolute;
+		width: 20000em;
+	}
+	
+	article .preview .scrollable .items img {
+		display: block;
+		float: left;
+		height: 550px;
+		width: 700px;
+	}
+	/* ------------------------------------------- */
+	
+	/* section: footer
+	---------------------------------------------- */
+	footer {
+		border-top: 1px solid #e5e5e5;
+		padding: 10px 0 0 0;
+	}
+	
+	footer li {
+		line-height: 16px;
+	}
+	
+	footer .left li {
+		border-right: 1px solid #e5e5e5;
+		float: left;
+		margin: 0 10px 0 0;
+		padding: 0 10px 0 0;
+	}
+	/* ------------------------------------------- */
+/* ------------------------------------------- */
