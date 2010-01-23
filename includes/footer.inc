@@ -2,7 +2,7 @@
 		<ul class="left">
 			<li>Hosted and powered by <a href="http://get.harmonyapp.com">Harmony</a></li>
 
-			<li class="no_border reset"><a href="http://twitter.com/bylinebreak">Twitter</a></li>
+			<li class="no_border reset">Twitter: <a href="http://twitter.com/bylinebreak">@bylinebreak</a> &amp; <a href="http://twitter.com/getcloudapp">@getcloudapp</a></li>
 		</ul>
 
 		<ul class="right">
