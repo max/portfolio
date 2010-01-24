@@ -72,7 +72,6 @@ body {
 	---------------------------------------------- */
 	article {
 		border-top: 1px solid #e5e5e5;
-		margin: 0 0 30px 0;
 		padding: 30px 0 0 0;
 	}
 	
@@ -82,84 +81,133 @@ body {
 		width: 220px;
 	}
 	
-	article aside h3 {
-		font-size: 14px;
-		font-weight: bold;
-		margin: 0 0 10px 0;
-	}
-	
-	article aside p {
-		color: #8ec234;
-		margin: 0 0 20px 0;
-	}
-	
-	article aside .navigator ul li {
-		float: left;
-	}
-	
-	article aside .navigator ul li {
-		float: left;
-	}
-	
-	article aside .navigator ul li.prev {
-		margin: 0 5px 0 0;
-	}
-	
-	article aside .navigator ul li a {
-		background-image: url(images/navigator.png);
-		display: block;
-		height: 24px;
-		text-indent: -99999px;
-		width: 24px;
-	}
-	
-	article aside .navigator ul li.prev a {
-		background-position: 0 -24px;
-	}
-	
-	article aside .navigator ul li.prev a:hover {
-		background-position: 0 -48px;
-	}
-	
-	article aside .navigator ul li.prev a:active {
-		background-position: 0 -72px;
-	}
-	
-	article aside .navigator ul li.next a {
-		background-position: -24px -24px;
-	}
-	
-	article aside .navigator ul li.next a:hover {
-		background-position: -24px -48px;
-	}
-	
-	article aside .navigator ul li.next a:active {
-		background-position: -24px -72px;
-	}
-	
-	article .preview {
+	article .content {
 		float: left;
 		width: 700px;
 	}
 	
-	article .preview .scrollable {
-		height: 550px;
-		overflow: hidden;
-		position: relative;
-		width: 700px;
-	}
-	
-	article .preview .scrollable .items {
-		position: absolute;
-		width: 20000em;
-	}
-	
-	article .preview .scrollable .items img {
-		display: block;
-		float: left;
-		height: 550px;
-		width: 700px;
-	}
+		/* section: portfolio
+		---------------------------------------------- */
+		#portfolio article {
+			margin: 0 0 30px 0;
+		}
+		
+		#portfolio article aside h3 {
+			font-size: 14px;
+			font-weight: bold;
+			line-height: 28px;
+		}
+		
+		#portfolio article aside p {
+			color: #8ec234;
+			margin: 0 0 20px 0;
+		}
+		
+		#portfolio article aside .navigator ul li {
+			float: left;
+		}
+
+		#portfolio article aside .navigator ul li {
+			float: left;
+		}
+
+		#portfolio article aside .navigator ul li.prev {
+			margin: 0 5px 0 0;
+		}
+
+		#portfolio article aside .navigator ul li a {
+			background-image: url(images/navigator.png);
+			display: block;
+			height: 24px;
+			text-indent: -99999px;
+			width: 24px;
+		}
+
+		#portfolio article aside .navigator ul li.prev a {
+			background-position: 0 -24px;
+		}
+
+		#portfolio article aside .navigator ul li.prev a:hover {
+			background-position: 0 -48px;
+		}
+
+		#portfolio article aside .navigator ul li.prev a:active {
+			background-position: 0 -72px;
+		}
+
+		#portfolio article aside .navigator ul li.next a {
+			background-position: -24px -24px;
+		}
+
+		#portfolio article aside .navigator ul li.next a:hover {
+			background-position: -24px -48px;
+		}
+
+		#portfolio article aside .navigator ul li.next a:active {
+			background-position: -24px -72px;
+		}
+		
+		#portfolio article .content .scrollable {
+			height: 550px;
+			overflow: hidden;
+			position: relative;
+			width: 700px;
+		}
+
+		#portfolio article .content .scrollable .items {
+			position: absolute;
+			width: 20000em;
+		}
+
+		#portfolio article .content .scrollable .items img {
+			display: block;
+			float: left;
+			height: 550px;
+			width: 700px;
+		}
+		/* ------------------------------------------- */
+		
+		/* section: blog
+		---------------------------------------------- */
+		#blog article aside ul li {
+			color: #d9d9d9;
+			line-height: 20px;
+			margin: 0 0 5px 0;
+			padding: 0 0 0 21px;
+		}
+		
+		#blog article aside ul li.user {
+			background: url(images/user_glyph.png) center left no-repeat;
+		}
+		
+		#blog article aside ul li.date {
+			background: url(images/date_glyph.png) center left no-repeat;	
+		}
+		
+		#blog article aside ul li.label {
+			background: url(images/tag_glyph.png) center left no-repeat;
+		}
+		
+		#blog article aside ul li.label a {
+			color: #8ec234;
+			font-weight: normal;
+		}
+		
+		#blog article aside ul li.label a:hover, #blog article aside ul li.label a:active {
+			text-decoration: underline;
+		}	
+		
+		#blog article .content h3 {
+			font-size: 20px;
+			margin: 0 0 10px 0;
+		}
+		
+		#blog article .content p {
+			font: 16px/28px HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+			margin: 0 0 30px 0;
+			text-align: justify;
+		}
+		/* ------------------------------------------- */
 	/* ------------------------------------------- */
 	
 	/* section: footer

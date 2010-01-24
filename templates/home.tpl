@@ -13,7 +13,7 @@
 				</p>
 			</aside>
 			
-			<section class="preview">
+			<section class="content">
 				<div class="scrollable">
 					<div class="items">
 						{% for image in entry.children %}
