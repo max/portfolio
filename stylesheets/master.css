@@ -52,7 +52,7 @@ body {
 	}
 
 	header h1 {
-		background: url(images/logo.png);
+		background: url(../images/logo.png);
 		float: left;
 		height: 23px;
 		text-indent: -99999px;
@@ -116,7 +116,7 @@ body {
 		}
 
 		#portfolio article aside .navigator ul li a {
-			background-image: url(images/navigator.png);
+			background-image: url(../images/navigator.png);
 			display: block;
 			height: 24px;
 			text-indent: -99999px;
@@ -177,15 +177,15 @@ body {
 		}
 		
 		#blog article aside ul li.user {
-			background: url(images/user_glyph.png) center left no-repeat;
+			background: url(../images/user_glyph.png) center left no-repeat;
 		}
 		
 		#blog article aside ul li.date {
-			background: url(images/date_glyph.png) center left no-repeat;	
+			background: url(../images/date_glyph.png) center left no-repeat;	
 		}
 		
 		#blog article aside ul li.label {
-			background: url(images/tag_glyph.png) center left no-repeat;
+			background: url(../images/tag_glyph.png) center left no-repeat;
 		}
 		
 		#blog article aside ul li.label a {
